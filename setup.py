@@ -25,7 +25,7 @@ setup(
     author_email=django_php_bridge.__contact__,
     url=django_php_bridge.__homepage__,
     long_description=long_description,
-    packages=['django_php_bridge'],
+    packages=['django_php_bridge','django_php_bridge.backends']
     license='BSD',
     platforms=['any'],
     classifiers=CLASSIFIERS,
