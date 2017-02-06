@@ -29,5 +29,5 @@ setup(
     license='BSD',
     platforms=['any'],
     classifiers=CLASSIFIERS,
-    install_requires=['phpserialize==1.3'],
+    install_requires=['phpserialize==1.3', 'django-redis-sessions==0.5.6'],
 )
